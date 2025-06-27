@@ -19,54 +19,37 @@ export function Menu() {
                 
                 <!-- Chinese Scroll Menu Container -->
                 <div class="relative max-w-4xl mx-auto">
-                    <!-- Scroll Background with SVG -->
+                    <!-- Top Scroll Rod -->
+                    <div class="relative mb-4 flex justify-center">
+                        <div class="relative">
+                            <!-- Main cylindrical rod -->
+                            <div class="w-96 h-8 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg relative overflow-hidden">
+                                <!-- Wood grain effect -->
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-700 to-transparent opacity-30"></div>
+                                <div class="absolute top-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
+                                <div class="absolute bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent"></div>
+                            </div>
+                            
+                            <!-- Left end cap -->
+                            <div class="absolute -left-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
+                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
+                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
+                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            </div>
+                            
+                            <!-- Right end cap -->
+                            <div class="absolute -right-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
+                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
+                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
+                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Scroll Background with Menu Content -->
                     <div class="relative bg-gradient-to-b from-chinese-red via-red-600 to-chinese-red rounded-lg shadow-2xl overflow-hidden">
                         <!-- Golden decorative border -->
                         <div class="absolute inset-0 border-8 border-chinese-gold rounded-lg"></div>
-                        
-                        <!-- Top scroll decorative element -->
-                        <div class="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
-                            <!-- Main scroll rod -->
-                            <div class="w-80 h-8 bg-gradient-to-r from-yellow-600 via-chinese-gold to-yellow-600 rounded-full shadow-lg relative">
-                                <!-- Left end cap -->
-                                <div class="absolute -left-6 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-gradient-to-br from-yellow-500 to-yellow-700 rounded-full shadow-lg border-2 border-yellow-800">
-                                    <div class="absolute inset-2 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full"></div>
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-yellow-800 rounded-full"></div>
-                                </div>
-                                <!-- Right end cap -->
-                                <div class="absolute -right-6 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-gradient-to-br from-yellow-500 to-yellow-700 rounded-full shadow-lg border-2 border-yellow-800">
-                                    <div class="absolute inset-2 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full"></div>
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-yellow-800 rounded-full"></div>
-                                </div>
-                            </div>
-                            <!-- Decorative tassels -->
-                            <div class="absolute -bottom-6 left-8 w-1 h-8 bg-chinese-gold"></div>
-                            <div class="absolute -bottom-6 left-8 w-6 h-1 bg-chinese-gold rounded-full"></div>
-                            <div class="absolute -bottom-6 right-8 w-1 h-8 bg-chinese-gold"></div>
-                            <div class="absolute -bottom-6 right-8 w-6 h-1 bg-chinese-gold rounded-full"></div>
-                        </div>
-                        
-                        <!-- Bottom scroll decorative element -->
-                        <div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 z-10">
-                            <!-- Main scroll rod -->
-                            <div class="w-80 h-8 bg-gradient-to-r from-yellow-600 via-chinese-gold to-yellow-600 rounded-full shadow-lg relative">
-                                <!-- Left end cap -->
-                                <div class="absolute -left-6 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-gradient-to-br from-yellow-500 to-yellow-700 rounded-full shadow-lg border-2 border-yellow-800">
-                                    <div class="absolute inset-2 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full"></div>
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-yellow-800 rounded-full"></div>
-                                </div>
-                                <!-- Right end cap -->
-                                <div class="absolute -right-6 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-gradient-to-br from-yellow-500 to-yellow-700 rounded-full shadow-lg border-2 border-yellow-800">
-                                    <div class="absolute inset-2 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full"></div>
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-yellow-800 rounded-full"></div>
-                                </div>
-                            </div>
-                            <!-- Decorative tassels -->
-                            <div class="absolute top-6 left-8 w-1 h-8 bg-chinese-gold"></div>
-                            <div class="absolute top-6 left-8 w-6 h-1 bg-chinese-gold rounded-full"></div>
-                            <div class="absolute top-6 right-8 w-1 h-8 bg-chinese-gold"></div>
-                            <div class="absolute top-6 right-8 w-6 h-1 bg-chinese-gold rounded-full"></div>
-                        </div>
                         
                         <!-- Golden decorative patterns on sides -->
                         <div class="absolute left-4 top-8 bottom-8 w-8 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80">
@@ -333,6 +316,33 @@ export function Menu() {
                             <div class="text-center mt-8 pt-6 border-t-2 border-chinese-gold">
                                 <p class="text-chinese-gold font-chinese text-lg">品尝正宗中华美食</p>
                                 <p class="text-yellow-200 text-sm mt-1">Uživajte u autentičnim kineskim ukusima</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Scroll Rod -->
+                    <div class="relative mt-4 flex justify-center">
+                        <div class="relative">
+                            <!-- Main cylindrical rod -->
+                            <div class="w-96 h-8 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg relative overflow-hidden">
+                                <!-- Wood grain effect -->
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-700 to-transparent opacity-30"></div>
+                                <div class="absolute top-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
+                                <div class="absolute bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent"></div>
+                            </div>
+                            
+                            <!-- Left end cap -->
+                            <div class="absolute -left-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
+                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
+                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
+                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            </div>
+                            
+                            <!-- Right end cap -->
+                            <div class="absolute -right-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
+                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
+                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
+                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
                             </div>
                         </div>
                     </div>
