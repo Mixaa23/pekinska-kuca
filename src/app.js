@@ -41,4 +41,19 @@ export function createApp() {
             mobileMenu.classList.toggle('hidden')
         })
     }
+    
+    // Background slideshow functionality
+    const slides = document.querySelectorAll('.slide')
+    let currentSlide = 0
+    
+    function nextSlide() {
+        slides[currentSlide].classList.remove('active')
+        currentSlide = (currentSlide + 1) % slides.length
+        slides[currentSlide].classList.add('active')
+    }
+    
+    // Change slide every 5 seconds
+    if (slides.length > 0) {
+        setInterval(nextSlide, 5000)
+    }
 }

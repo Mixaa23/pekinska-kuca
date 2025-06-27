@@ -1,7 +1,15 @@
 export function Hero() {
     return `
-        <section id="pocetna" class="relative bg-gradient-to-br from-chinese-red to-red-800 text-white py-20">
-            <div class="absolute inset-0 bg-black opacity-20"></div>
+        <section id="pocetna" class="relative text-white py-20 overflow-hidden">
+            <!-- Background Image Slideshow -->
+            <div class="absolute inset-0 bg-slideshow">
+                <div class="slide active" style="background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg'); background-size: cover; background-position: center;"></div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg'); background-size: cover; background-position: center;"></div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg'); background-size: cover; background-position: center;"></div>
+                <div class="slide" style="background-image: url('https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg'); background-size: cover; background-position: center;"></div>
+            </div>
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+            
             <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
                     <h1 class="text-5xl md:text-7xl font-bold mb-6 font-chinese">
