@@ -1,6 +1,6 @@
 export function Logo() {
     return `
-        <div class="flex items-center space-x-3 bg-color: #1c1c1c;">
+        <div class="flex items-center space-x-3 background-color: #1c1c1c;">
             <div class="relative">
                 <!-- Pagoda Logo -->
                 <svg width="40" height="48" viewBox="0 0 40 48" class="text-chinese-gold">
