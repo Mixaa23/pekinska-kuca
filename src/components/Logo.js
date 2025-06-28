@@ -3,7 +3,7 @@ export function Logo() {
         <div class="flex items-center space-x-3">
             <div class="relative">
                 <!-- Pagoda Logo -->
-                <svg width="40" height="48" viewBox="0 0 40 48" class="text-chinese-red">
+                <svg width="40" height="48" viewBox="0 0 40 48" class="text-chinese-gold">
                     <!-- Base -->
                     <rect x="2" y="42" width="36" height="4" fill="currentColor" rx="1"/>
                     
@@ -30,8 +30,8 @@ export function Logo() {
                 </svg>
             </div>
             <div>
-                <h1 class="text-2xl font-bold text-chinese-red font-chinese">北京屋</h1>
-                <p class="text-sm text-chinese-black font-medium">Pekinska Kuća</p>
+                <h1 class="text-2xl font-bold text-chinese-gold font-chinese">北京屋</h1>
+                <p class="text-sm text-white font-medium">Pekinska Kuća</p>
             </div>
         </div>
     `

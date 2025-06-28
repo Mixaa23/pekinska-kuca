@@ -19,29 +19,35 @@ export function Menu() {
                 
                 <!-- Chinese Scroll Menu Container -->
                 <div class="relative max-w-4xl mx-auto">
-                    <!-- Top Scroll Rod -->
-                    <div class="relative mb-4 flex justify-center">
-                        <div class="relative">
-                            <!-- Main cylindrical rod -->
-                            <div class="w-96 h-8 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg relative overflow-hidden">
+                    <!-- Top Horizontal Cylinder -->
+                    <div class="relative mb-6 flex justify-center">
+                        <div class="relative w-full max-w-2xl">
+                            <!-- Main horizontal cylinder -->
+                            <div class="w-full h-6 bg-gradient-to-b from-amber-700 via-amber-600 to-amber-800 rounded-full shadow-lg relative overflow-hidden">
                                 <!-- Wood grain effect -->
-                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-700 to-transparent opacity-30"></div>
-                                <div class="absolute top-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
-                                <div class="absolute bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-40"></div>
+                                <div class="absolute top-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60"></div>
+                                <div class="absolute bottom-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent opacity-60"></div>
+                                
+                                <!-- Decorative bands -->
+                                <div class="absolute left-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                <div class="absolute right-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                <div class="absolute right-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
                             </div>
                             
                             <!-- Left end cap -->
-                            <div class="absolute -left-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
-                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
-                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
-                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            <div class="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
                             </div>
                             
                             <!-- Right end cap -->
-                            <div class="absolute -right-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
-                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
-                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
-                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            <div class="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
                             </div>
                         </div>
                     </div>
@@ -320,29 +326,35 @@ export function Menu() {
                         </div>
                     </div>
                     
-                    <!-- Bottom Scroll Rod -->
-                    <div class="relative mt-4 flex justify-center">
-                        <div class="relative">
-                            <!-- Main cylindrical rod -->
-                            <div class="w-96 h-8 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg relative overflow-hidden">
+                    <!-- Bottom Horizontal Cylinder -->
+                    <div class="relative mt-6 flex justify-center">
+                        <div class="relative w-full max-w-2xl">
+                            <!-- Main horizontal cylinder -->
+                            <div class="w-full h-6 bg-gradient-to-b from-amber-700 via-amber-600 to-amber-800 rounded-full shadow-lg relative overflow-hidden">
                                 <!-- Wood grain effect -->
-                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-700 to-transparent opacity-30"></div>
-                                <div class="absolute top-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
-                                <div class="absolute bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent"></div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-40"></div>
+                                <div class="absolute top-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60"></div>
+                                <div class="absolute bottom-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent opacity-60"></div>
+                                
+                                <!-- Decorative bands -->
+                                <div class="absolute left-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                <div class="absolute right-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                <div class="absolute right-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
                             </div>
                             
                             <!-- Left end cap -->
-                            <div class="absolute -left-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
-                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
-                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
-                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            <div class="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
                             </div>
                             
                             <!-- Right end cap -->
-                            <div class="absolute -right-4 top-1/2 transform -translate-y-1/2 w-8 h-12 bg-gradient-to-b from-amber-900 via-amber-800 to-amber-900 rounded-full shadow-lg">
-                                <div class="absolute inset-1 bg-gradient-to-b from-amber-700 to-amber-900 rounded-full"></div>
-                                <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-600 rounded-full"></div>
-                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-1 bg-amber-900 rounded-full"></div>
+                            <div class="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
                             </div>
                         </div>
                     </div>
