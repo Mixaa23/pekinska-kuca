@@ -9,13 +9,12 @@ export function createApp() {
     const app = document.getElementById('app')
     
     app.innerHTML = `
-        <div class="min-h-screen bg-chinese-cream">
+        
             ${Navigation()}
             ${Hero()}
             ${Menu()}
             ${Locations()}
             ${Footer()}
-        </div>
     `
     
     // Add smooth scrolling functionality
