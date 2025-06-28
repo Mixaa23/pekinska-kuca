@@ -17,79 +17,115 @@ export function Menu() {
                     </p>
                 </div>
                 
-                <!-- Chinese Scroll Menu Container -->
+                <!-- Complete Chinese Scroll Container -->
                 <div class="relative max-w-4xl mx-auto">
-                    <!-- Top Horizontal Cylinder -->
-                    <div class="relative mb-6 flex justify-center">
-                        <div class="relative w-full max-w-2xl">
-                            <!-- Main horizontal cylinder -->
-                            <div class="w-full h-6 bg-gradient-to-b from-amber-700 via-amber-600 to-amber-800 rounded-full shadow-lg relative overflow-hidden">
-                                <!-- Wood grain effect -->
-                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-40"></div>
-                                <div class="absolute top-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60"></div>
-                                <div class="absolute bottom-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent opacity-60"></div>
+                    <!-- Top Scroll Section with Cylinder -->
+                    <div class="relative">
+                        <!-- Horizontal Cylinder -->
+                        <div class="relative mb-2 flex justify-center">
+                            <div class="relative w-full max-w-2xl">
+                                <!-- Main horizontal cylinder -->
+                                <div class="w-full h-6 bg-gradient-to-b from-amber-700 via-amber-600 to-amber-800 rounded-full shadow-lg relative overflow-hidden">
+                                    <!-- Wood grain effect -->
+                                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-40"></div>
+                                    <div class="absolute top-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60"></div>
+                                    <div class="absolute bottom-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent opacity-60"></div>
+                                    
+                                    <!-- Decorative bands -->
+                                    <div class="absolute left-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                    <div class="absolute right-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                    <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                    <div class="absolute right-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                </div>
                                 
-                                <!-- Decorative bands -->
-                                <div class="absolute left-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
-                                <div class="absolute right-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
-                                <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
-                                <div class="absolute right-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                <!-- Left end cap -->
+                                <div class="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                    <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                    <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                    <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                                </div>
+                                
+                                <!-- Right end cap -->
+                                <div class="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                    <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                    <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                    <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Top Red Scroll Section -->
+                        <div class="bg-gradient-to-b from-chinese-red via-red-600 to-chinese-red rounded-t-lg shadow-lg relative">
+                            <!-- Golden decorative border -->
+                            <div class="absolute inset-0 border-4 border-chinese-gold rounded-t-lg border-b-0"></div>
+                            
+                            <!-- Golden decorative patterns on sides -->
+                            <div class="absolute left-2 top-4 bottom-0 w-6 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80 rounded-t-lg">
+                                <div class="h-full flex flex-col justify-around items-center py-2">
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                </div>
                             </div>
                             
-                            <!-- Left end cap -->
-                            <div class="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
-                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
-                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
-                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                            <div class="absolute right-2 top-4 bottom-0 w-6 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80 rounded-t-lg">
+                                <div class="h-full flex flex-col justify-around items-center py-2">
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                </div>
                             </div>
                             
-                            <!-- Right end cap -->
-                            <div class="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
-                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
-                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
-                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                            <!-- Top section content -->
+                            <div class="relative px-12 py-6 text-white">
+                                <div class="text-center">
+                                    <h3 class="text-3xl font-bold font-chinese text-chinese-gold mb-2">美食菜单</h3>
+                                    <div class="w-24 h-1 bg-chinese-gold mx-auto rounded-full"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
-                    <!-- Scroll Background with Menu Content -->
-                    <div class="relative bg-gradient-to-b from-chinese-red via-red-600 to-chinese-red rounded-lg shadow-2xl overflow-hidden">
+                    <!-- Main Scroll Content -->
+                    <div class="relative bg-gradient-to-b from-chinese-red via-red-600 to-chinese-red shadow-2xl">
                         <!-- Golden decorative border -->
-                        <div class="absolute inset-0 border-8 border-chinese-gold rounded-lg"></div>
+                        <div class="absolute inset-0 border-l-4 border-r-4 border-chinese-gold"></div>
                         
                         <!-- Golden decorative patterns on sides -->
-                        <div class="absolute left-4 top-8 bottom-8 w-8 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80">
+                        <div class="absolute left-2 top-0 bottom-0 w-6 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80">
                             <div class="h-full flex flex-col justify-around items-center py-4">
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
-                                <div class="w-3 h-3 bg-yellow-300 transform rotate-45"></div>
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
-                                <div class="w-3 h-3 bg-yellow-300 transform rotate-45"></div>
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
-                                <div class="w-3 h-3 bg-yellow-300 transform rotate-45"></div>
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
                             </div>
                         </div>
                         
-                        <div class="absolute right-4 top-8 bottom-8 w-8 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80">
+                        <div class="absolute right-2 top-0 bottom-0 w-6 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80">
                             <div class="h-full flex flex-col justify-around items-center py-4">
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
-                                <div class="w-3 h-3 bg-yellow-300 transform rotate-45"></div>
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
-                                <div class="w-3 h-3 bg-yellow-300 transform rotate-45"></div>
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
-                                <div class="w-3 h-3 bg-yellow-300 transform rotate-45"></div>
-                                <div class="w-4 h-4 bg-yellow-300 rounded-full"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
                             </div>
                         </div>
                         
                         <!-- Menu Content -->
-                        <div class="relative px-16 py-12 text-white">
-                            <!-- Header with Chinese characters -->
-                            <div class="text-center mb-8">
-                                <h3 class="text-4xl font-bold font-chinese text-chinese-gold mb-2">美食菜单</h3>
-                                <div class="w-32 h-1 bg-chinese-gold mx-auto rounded-full"></div>
-                            </div>
-                            
+                        <div class="relative px-12 py-8 text-white">
                             <!-- Menu Grid -->
                             <div class="grid md:grid-cols-2 gap-8">
                                 <!-- Predjela -->
@@ -317,44 +353,72 @@ export function Menu() {
                                     </div>
                                 </div>
                             </div>
-                            
-                            <!-- Bottom decoration -->
-                            <div class="text-center mt-8 pt-6 border-t-2 border-chinese-gold">
-                                <p class="text-chinese-gold font-chinese text-lg">品尝正宗中华美食</p>
-                                <p class="text-yellow-200 text-sm mt-1">Uživajte u autentičnim kineskim ukusima</p>
-                            </div>
                         </div>
                     </div>
                     
-                    <!-- Bottom Horizontal Cylinder -->
-                    <div class="relative mt-6 flex justify-center">
-                        <div class="relative w-full max-w-2xl">
-                            <!-- Main horizontal cylinder -->
-                            <div class="w-full h-6 bg-gradient-to-b from-amber-700 via-amber-600 to-amber-800 rounded-full shadow-lg relative overflow-hidden">
-                                <!-- Wood grain effect -->
-                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-40"></div>
-                                <div class="absolute top-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60"></div>
-                                <div class="absolute bottom-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent opacity-60"></div>
+                    <!-- Bottom Scroll Section -->
+                    <div class="relative">
+                        <!-- Bottom Red Scroll Section -->
+                        <div class="bg-gradient-to-b from-chinese-red via-red-600 to-chinese-red rounded-b-lg shadow-lg relative">
+                            <!-- Golden decorative border -->
+                            <div class="absolute inset-0 border-4 border-chinese-gold rounded-b-lg border-t-0"></div>
+                            
+                            <!-- Golden decorative patterns on sides -->
+                            <div class="absolute left-2 top-0 bottom-4 w-6 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80 rounded-b-lg">
+                                <div class="h-full flex flex-col justify-around items-center py-2">
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="absolute right-2 top-0 bottom-4 w-6 bg-gradient-to-b from-chinese-gold via-yellow-500 to-chinese-gold opacity-80 rounded-b-lg">
+                                <div class="h-full flex flex-col justify-around items-center py-2">
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-yellow-300 transform rotate-45"></div>
+                                    <div class="w-3 h-3 bg-yellow-300 rounded-full"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Bottom section content -->
+                            <div class="relative px-12 py-6 text-white">
+                                <div class="text-center pt-2 border-t-2 border-chinese-gold">
+                                    <p class="text-chinese-gold font-chinese text-lg">品尝正宗中华美食</p>
+                                    <p class="text-yellow-200 text-sm mt-1">Uživajte u autentičnim kineskim ukusima</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Bottom Horizontal Cylinder -->
+                        <div class="relative mt-2 flex justify-center">
+                            <div class="relative w-full max-w-2xl">
+                                <!-- Main horizontal cylinder -->
+                                <div class="w-full h-6 bg-gradient-to-b from-amber-700 via-amber-600 to-amber-800 rounded-full shadow-lg relative overflow-hidden">
+                                    <!-- Wood grain effect -->
+                                    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-amber-500 to-transparent opacity-40"></div>
+                                    <div class="absolute top-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-60"></div>
+                                    <div class="absolute bottom-0.5 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-900 to-transparent opacity-60"></div>
+                                    
+                                    <!-- Decorative bands -->
+                                    <div class="absolute left-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                    <div class="absolute right-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
+                                    <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                    <div class="absolute right-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
+                                </div>
                                 
-                                <!-- Decorative bands -->
-                                <div class="absolute left-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
-                                <div class="absolute right-8 top-0 bottom-0 w-1 bg-chinese-gold opacity-80"></div>
-                                <div class="absolute left-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
-                                <div class="absolute right-16 top-0 bottom-0 w-0.5 bg-yellow-400 opacity-60"></div>
-                            </div>
-                            
-                            <!-- Left end cap -->
-                            <div class="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
-                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
-                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
-                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
-                            </div>
-                            
-                            <!-- Right end cap -->
-                            <div class="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
-                                <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
-                                <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
-                                <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                                <!-- Left end cap -->
+                                <div class="absolute -left-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                    <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                    <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                    <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                                </div>
+                                
+                                <!-- Right end cap -->
+                                <div class="absolute -right-3 top-1/2 transform -translate-y-1/2 w-6 h-8 bg-gradient-to-b from-amber-800 via-amber-700 to-amber-900 rounded-full shadow-md">
+                                    <div class="absolute inset-0.5 bg-gradient-to-b from-amber-600 to-amber-800 rounded-full"></div>
+                                    <div class="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-chinese-gold rounded-full opacity-80"></div>
+                                    <div class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-0.5 bg-amber-900 rounded-full"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
