@@ -51,7 +51,8 @@ export function Locations() {
                                 </div>
                             </div>
                         </div>
-                        <button class="mt-6 bg-chinese-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-colors duration-300 w-full font-semibold">
+                        <button class="reserve-btn mt-6 bg-chinese-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-colors duration-300 w-full font-semibold" 
+                                data-restaurant="centar" data-restaurant-name="Centar - Knez Mihailova 25">
                             Rezerviši sto
                         </button>
                     </div>
@@ -97,7 +98,8 @@ export function Locations() {
                                 </div>
                             </div>
                         </div>
-                        <button class="mt-6 bg-chinese-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-colors duration-300 w-full font-semibold">
+                        <button class="reserve-btn mt-6 bg-chinese-red text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-colors duration-300 w-full font-semibold" 
+                                data-restaurant="novi-beograd" data-restaurant-name="Novi Beograd - Bulevar Mihajla Pupina 10">
                             Rezerviši sto
                         </button>
                     </div>
